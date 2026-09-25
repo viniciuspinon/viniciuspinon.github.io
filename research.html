@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-R4CCYRTY6X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-R4CCYRTY6X');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa acadêmica | Vinícius Pinon</title>
+  
+  <meta name="description" content="Pesquisa acadêmica de Vinícius Pinon — Dissertação de Mestrado na FGV/EBAPE e Projetos Acadêmicos.">
+  <meta name="author" content="Vinícius Pinon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Minimal Header -->
+  <header class="site-nav">
+    <div class="nav-container">
+      <a href="./" class="nav-brand">Vinícius Pinon</a>
+      
+      <ul class="nav-links">
+        <li><a href="./" data-i18n="nav.bio">Bio</a></li>
+        <li><a href="research" class="active" data-i18n="nav.research">Pesquisa</a></li>
+        <li><a href="portfolio" data-i18n="nav.portfolio">Portfólio</a></li>
+        <li><a href="cv" data-i18n="nav.cv">Currículo</a></li>
+      </ul>
+
+      <div class="nav-controls">
+        <div class="lang-selector">
+          <button class="lang-btn active" data-lang="pt">PT</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" data-lang="en">EN</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" data-lang="es">ES</button>
+        </div>
+        <button class="theme-btn" id="themeToggle" title="Alternar tema">&#9789;</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="page-header">
+      <h1 data-i18n="research.pageTitle">Pesquisa acadêmica</h1>
+      <p data-i18n="research.pageSubtitle">Dissertação de mestrado, artigos e projetos acadêmicos.</p>
+    </div>
+
+    <!-- Master's Thesis -->
+    <h2 class="section-heading" data-i18n="research.thesisHeading">Dissertação de Mestrado</h2>
+    
+    <div class="academic-list">
+      <div class="item-entry">
+        <div class="item-title">
+          <a href="https://hdl.handle.net/10438/36621" target="_blank" rel="noopener noreferrer" data-i18n="research.thesisTitle">
+            State policy vs. government policy: how do institutionalization and political ownership affect policy approval?
+          </a>
+        </div>
+        <div class="item-authors"><strong>Vinícius Pinon</strong></div>
+        <div class="item-venue" data-i18n-html="research.thesisMeta">FGV/EBAPE (Rio de Janeiro, 2024) &bull; Orientador: Prof. Dr. Cesar Zucco Jr.</div>
+        
+        <div class="item-links">
+          <button onclick="toggleAbstract('abs-thesis')" data-i18n="research.btnAbstract">[ Resumo ]</button>
+          <a href="https://hdl.handle.net/10438/36621" target="_blank" rel="noopener noreferrer" data-i18n="research.btnFgv">[ PDF ]</a>
+        </div>
+
+        <div id="abs-thesis" class="abstract-box" data-i18n="research.thesisAbstract">
+          Esta dissertação investiga como o grau de institucionalização e o pertencimento político (political ownership) influenciam a aprovação e longevidade de políticas públicas no poder legislativo brasileiro, diferenciando políticas perenes de Estado de programas transitórios de governo.
+        </div>
+      </div>
+    </div>
+
+    <!-- Other Works -->
+    <h2 class="section-heading" style="margin-top: 40px;" data-i18n="research.otherHeading">Outros trabalhos</h2>
+    
+    <div class="academic-list">
+      
+      <!-- FACEPE -->
+      <div class="item-entry">
+        <div class="item-title" data-i18n="research.facepeTitle">
+          Inércia Legislativa: o impacto da fragmentação partidária na eficiência do Congresso Nacional (1995–2020)
+        </div>
+        <div class="item-authors"><strong>Vinícius Pinon</strong></div>
+        <div class="item-venue" data-i18n-html="research.facepeMeta">PIBIC FACEPE / UFPE (2020–2022) &bull; Orientadora: Profª. Dra. Mariana Batista da Silva</div>
+        
+        <div class="item-links">
+          <button onclick="toggleAbstract('abs-facepe')" data-i18n="research.btnAbstract">[ Resumo ]</button>
+        </div>
+
+        <div id="abs-facepe" class="abstract-box" data-i18n="research.facepeAbstract">
+          Análise empírica quantitativa sobre a relação entre fragmentação partidária e o tempo de tramitação e sucesso legislativo no Congresso Nacional.
+        </div>
+      </div>
+
+      <!-- Propesq -->
+      <div class="item-entry">
+        <div class="item-title" data-i18n="research.propesqTitle">
+          Campanha Fora de Época: o impacto do comportamento legislativo no sucesso eleitoral no Brasil (1995–2019)
+        </div>
+        <div class="item-authors"><strong>Vinícius Pinon</strong></div>
+        <div class="item-venue" data-i18n-html="research.propesqMeta">PIBIC Propesq / CNPq — UFPE (2019–2020) &bull; Orientadora: Profª. Dra. Mariana Batista da Silva</div>
+        
+        <div class="item-links">
+          <button onclick="toggleAbstract('abs-propesq')" data-i18n="research.btnAbstract">[ Resumo ]</button>
+        </div>
+
+        <div id="abs-propesq" class="abstract-box" data-i18n="research.propesqAbstract">
+          Estudo sobre a atuação parlamentar contínua e suas repercussões na taxa de reeleição e votação de deputados federais.
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="footerYear">2026</span> Vinícius Pinon &bull; <a href="https://github.com/viniciuspinon/">GitHub</a> &bull; <a href="https://viniciuspinon.substack.com/">Substack</a> &bull; <a href="https://www.linkedin.com/in/viniciuspinon/">LinkedIn</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

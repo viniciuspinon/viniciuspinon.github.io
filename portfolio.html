@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-R4CCYRTY6X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-R4CCYRTY6X');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Vinícius Pinon</title>
+  
+  <meta name="description" content="Portfólio de Projetos de Vinícius Pinon — Aplicativos, Análises, Textos e Atividades Docentes.">
+  <meta name="author" content="Vinícius Pinon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Minimal Header -->
+  <header class="site-nav">
+    <div class="nav-container">
+      <a href="./" class="nav-brand">Vinícius Pinon</a>
+      
+      <ul class="nav-links">
+        <li><a href="./" data-i18n="nav.bio">Bio</a></li>
+        <li><a href="research" data-i18n="nav.research">Pesquisa</a></li>
+        <li><a href="portfolio" class="active" data-i18n="nav.portfolio">Portfólio</a></li>
+        <li><a href="cv" data-i18n="nav.cv">Currículo</a></li>
+      </ul>
+
+      <div class="nav-controls">
+        <div class="lang-selector">
+          <button class="lang-btn active" data-lang="pt">PT</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" data-lang="en">EN</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" data-lang="es">ES</button>
+        </div>
+        <button class="theme-btn" id="themeToggle" title="Alternar tema">&#9789;</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="page-header">
+      <h1 data-i18n="portfolio.pageTitle">Portfólio</h1>
+      <p data-i18n="portfolio.pageSubtitle">Projetos práticos, ferramentas, textos e atividades docentes.</p>
+    </div>
+
+    <!-- Section 1: Aplicativos & Dashboards -->
+    <h2 class="section-heading" data-i18n="portfolio.secAppsHeading">Aplicativos & Dashboards</h2>
+
+    <div class="academic-list">
+      
+      <!-- Project 1: Em Quem Eu Voto -->
+      <article class="item-entry item-with-thumb">
+        <a href="https://emquemeuvoto.onrender.com/" target="_blank" rel="noopener noreferrer" class="item-thumb-link">
+          <img src="assets/img/thumb-emquemeuvoto.jpg" alt="Em Quem Eu Voto" class="item-thumb" loading="lazy">
+        </a>
+        <div class="item-content">
+          <h2 class="item-title">
+            <a href="https://emquemeuvoto.onrender.com/" target="_blank" rel="noopener noreferrer" data-i18n="portfolio.project1Title">
+              Em Quem Eu Voto
+            </a>
+          </h2>
+          <div class="item-venue" data-i18n-html="portfolio.project1Venue">Setembro de 2026 &bull; Web App</div>
+          <p class="item-desc" data-i18n="portfolio.project1Desc">
+            Guia e ferramenta interativa desenvolvida para auxiliar eleitores no processo de escolha de candidatos no sistema proporcional, considerando viabilidade eleitoral, alinhamento partidário e histórico parlamentar.
+          </p>
+          <div class="item-links">
+            <a href="https://emquemeuvoto.onrender.com/" target="_blank" rel="noopener noreferrer" data-i18n="portfolio.project1BtnSite">[ Web App ]</a>
+            <a href="https://github.com/viniciuspinon/emquemeuvoto" target="_blank" rel="noopener noreferrer" data-i18n="portfolio.project1BtnGithub">[ GitHub ]</a>
+            <a href="https://emquemeuvoto.onrender.com/docs/relatorio_ideologia_e_quiz.pdf" target="_blank" rel="noopener noreferrer" data-i18n="portfolio.project1BtnArticle">[ PDF ]</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2: Dashboard de Gastos Públicos (Power BI) -->
+      <article class="item-entry item-with-thumb">
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiNDM0MjJjN2QtOTA4YS00NmRlLTljNzgtZGE1NTU5Zjg5MTE1IiwidCI6ImUyZjc3ZDAwLTAxNjMtNGNmNi05MmIwLTQ4NGJhZmY5ZGY3ZCJ9&pageName=ReportSection1d29e371a8419c95349e" target="_blank" rel="noopener noreferrer" class="item-thumb-link">
+          <img src="assets/img/thumb-dashboard-gastos.jpg" alt="Dashboard de Gastos Públicos" class="item-thumb" loading="lazy">
+        </a>
+        <div class="item-content">
+          <h2 class="item-title">
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiNDM0MjJjN2QtOTA4YS00NmRlLTljNzgtZGE1NTU5Zjg5MTE1IiwidCI6ImUyZjc3ZDAwLTAxNjMtNGNmNi05MmIwLTQ4NGJhZmY5ZGY3ZCJ9&pageName=ReportSection1d29e371a8419c95349e" target="_blank" rel="noopener noreferrer" data-i18n="portfolio.project2Title">
+              Dashboard de Gastos Públicos
+            </a>
+          </h2>
+          <div class="item-venue" data-i18n-html="portfolio.project2Venue">Setembro de 2022 &bull; Power BI</div>
+          <p class="item-desc" data-i18n="portfolio.project2Desc">
+            Painel interativo em Power BI para visualização, monitoramento e análise de execução orçamentária e despesas públicas.
+          </p>
+          <div class="item-links">
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiNDM0MjJjN2QtOTA4YS00NmRlLTljNzgtZGE1NTU5Zjg5MTE1IiwidCI6ImUyZjc3ZDAwLTAxNjMtNGNmNi05MmIwLTQ4NGJhZmY5ZGY3ZCJ9&pageName=ReportSection1d29e371a8419c95349e" target="_blank" rel="noopener noreferrer" data-i18n="portfolio.project2Btn">[ Power BI ]</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Section 2: Textos & Análises -->
+    <h2 class="section-heading" style="margin-top: 40px;" data-i18n="portfolio.secWritingHeading">Textos & Análises</h2>
+
+    <!-- Substack Banner with Orange Logo Badge -->
+    <div class="substack-box">
+      <div class="substack-box-text">
+        <div class="substack-icon-badge">
+          <svg viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+        </div>
+        <span data-i18n-html="portfolio.newsletterDesc">
+          <strong>Domínio Público</strong> — sobre políticas públicas, governo e instituições.
+        </span>
+      </div>
+      <a href="https://viniciuspinon.substack.com/" target="_blank" rel="noopener noreferrer" class="substack-btn" data-i18n-html="portfolio.btnSubstack">
+        Assinar no Substack &rarr;
+      </a>
+    </div>
+
+    <div class="academic-list">
+      
+      <!-- Article 1: Eleições 2026 -->
+      <article class="item-entry item-with-thumb">
+        <a href="https://viniciuspinon.substack.com/p/como-escolher-um-candidato-nas-eleicoes" target="_blank" rel="noopener noreferrer" class="item-thumb-link">
+          <img src="assets/img/thumb-eleicoes2026.jpg" alt="Como escolher um candidato nas Eleições de 2026" class="item-thumb" loading="lazy">
+        </a>
+        <div class="item-content">
+          <h2 class="item-title">
+            <a href="https://viniciuspinon.substack.com/p/como-escolher-um-candidato-nas-eleicoes" target="_blank" rel="noopener noreferrer" data-i18n="portfolio.art1Title">
+              Como escolher um candidato nas Eleições de 2026
+            </a>
+          </h2>
+          <div class="item-venue" data-i18n-html="portfolio.art1Venue">Setembro de 2026 &bull; Domínio Público</div>
+          <p class="item-desc" data-i18n="portfolio.art1Desc">
+            Um guia prático para um voto informado nas eleições parlamentares, explorando o funcionamento do sistema proporcional, a viabilidade partidária e a avaliação do trabalho legislativo.
+          </p>
+          <div class="item-links">
+            <a href="https://viniciuspinon.substack.com/p/como-escolher-um-candidato-nas-eleicoes" target="_blank" rel="noopener noreferrer" data-i18n="portfolio.btnReadSubstack">[ Substack ]</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Article 2: Ministério das Possibilidades -->
+      <article class="item-entry item-with-thumb">
+        <a href="https://viniciuspinon.substack.com/p/o-brasil-precisa-de-um-ministerio" target="_blank" rel="noopener noreferrer" class="item-thumb-link">
+          <img src="assets/img/thumb-possibilidades.jpg" alt="O Brasil precisa de um Ministério das Possibilidades?" class="item-thumb" loading="lazy">
+        </a>
+        <div class="item-content">
+          <h2 class="item-title">
+            <a href="https://viniciuspinon.substack.com/p/o-brasil-precisa-de-um-ministerio" target="_blank" rel="noopener noreferrer" data-i18n="portfolio.art2Title">
+              O Brasil precisa de um Ministério das Possibilidades?
+            </a>
+          </h2>
+          <div class="item-venue" data-i18n-html="portfolio.art2Venue">Agosto de 2026 &bull; Domínio Público</div>
+          <p class="item-desc" data-i18n="portfolio.art2Desc">
+            O que podemos aprender com os Emirados Árabes Unidos sobre o futuro da inovação na gestão pública e formulação estratégica.
+          </p>
+          <div class="item-links">
+            <a href="https://viniciuspinon.substack.com/p/o-brasil-precisa-de-um-ministerio" target="_blank" rel="noopener noreferrer" data-i18n="portfolio.btnReadSubstack">[ Substack ]</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Article 3: A concorrência na política (Medium) -->
+      <article class="item-entry item-with-thumb">
+        <a href="https://medium.com/@cep.politica/a-concorr%C3%AAncia-na-pol%C3%ADtica-a93106eb7e5c?sharedUserId=yyblog" target="_blank" rel="noopener noreferrer" class="item-thumb-link">
+          <img src="assets/img/thumb-concorrencia.jpg" alt="A concorrência na política" class="item-thumb" loading="lazy">
+        </a>
+        <div class="item-content">
+          <h2 class="item-title">
+            <a href="https://medium.com/@cep.politica/a-concorr%C3%AAncia-na-pol%C3%ADtica-a93106eb7e5c?sharedUserId=yyblog" target="_blank" rel="noopener noreferrer" data-i18n="portfolio.art3Title">
+              A concorrência na política
+            </a>
+          </h2>
+          <div class="item-venue" data-i18n-html="portfolio.art3Venue">Novembro de 2020 &bull; Medium / C&P Política</div>
+          <p class="item-desc" data-i18n="portfolio.art3Desc">
+            Uma análise sobre competição partidária, mercado eleitoral e estratégias de posicionamento político.
+          </p>
+          <div class="item-links">
+            <a href="https://medium.com/@cep.politica/a-concorr%C3%AAncia-na-pol%C3%ADtica-a93106eb7e5c?sharedUserId=yyblog" target="_blank" rel="noopener noreferrer" data-i18n="portfolio.btnReadMedium">[ Medium ]</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Section 3: Ensino -->
+    <h2 class="section-heading" style="margin-top: 40px;" data-i18n="portfolio.secTeachingHeading">Ensino</h2>
+
+    <div class="academic-list">
+      
+      <!-- Course 1: Power BI Workshop -->
+      <article class="item-entry item-with-thumb">
+        <a href="https://drive.google.com/file/d/1o5GkNkL3mLE0yDGI1ZnIRI0ZDgShpb5d/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="item-thumb-link">
+          <img src="assets/img/thumb-workshop-powerbi.jpg" alt="Workshop: Análise de Dados com Power BI" class="item-thumb" loading="lazy">
+        </a>
+        <div class="item-content">
+          <h2 class="item-title">
+            <a href="https://drive.google.com/file/d/1o5GkNkL3mLE0yDGI1ZnIRI0ZDgShpb5d/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-i18n="portfolio.course1Title">
+              Workshop: Análise de Dados com Power BI
+            </a>
+          </h2>
+          <div class="item-venue" data-i18n-html="portfolio.course1Venue">UFPE &bull; Gestão da Informação (3º período)</div>
+          <p class="item-desc" data-i18n="portfolio.course1Desc">
+            Workshop ministrado para estudantes do 3º período do curso de Gestão da Informação da Universidade Federal de Pernambuco (UFPE), abordando fundamentos de Power BI, modelagem de dados, tratamento com Power Query e visualização analítica orientada à tomada de decisão.
+          </p>
+          <div class="item-links">
+            <a href="https://drive.google.com/file/d/1o5GkNkL3mLE0yDGI1ZnIRI0ZDgShpb5d/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-i18n="portfolio.course1Btn">[ Slides ]</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="footerYear">2026</span> Vinícius Pinon &bull; <a href="https://github.com/viniciuspinon/">GitHub</a> &bull; <a href="https://viniciuspinon.substack.com/">Substack</a> &bull; <a href="https://www.linkedin.com/in/viniciuspinon/">LinkedIn</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

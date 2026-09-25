@@ -1,0 +1,19 @@
+# OS & Editors
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# LaTeX / R / Local source drafts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+cv-source/
+referencias/
+
+# Private local notes & checklists
+CHECKLIST-ATUALIZACOES.md
+*.tmp

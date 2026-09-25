@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-R4CCYRTY6X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-R4CCYRTY6X');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinícius Pinon</title>
+  
+  <!-- SEO & OpenGraph -->
+  <meta name="description" content="Vinícius Pinon — Cientista Político (UFPE) | Mestre em Administração (FGV-EBAPE).">
+  <meta name="author" content="Vinícius Pinon">
+  <meta property="og:title" content="Vinícius Pinon">
+  <meta property="og:description" content="Cientista Político (UFPE) | Mestre em Administração (FGV-EBAPE).">
+  <meta property="og:image" content="foto_profissional.png">
+
+  <!-- Google Fonts: Newsreader for academic serif elegance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Minimal Header -->
+  <header class="site-nav">
+    <div class="nav-container">
+      <a href="./" class="nav-brand">Vinícius Pinon</a>
+      
+      <ul class="nav-links">
+        <li><a href="./" class="active" data-i18n="nav.bio">Bio</a></li>
+        <li><a href="research" data-i18n="nav.research">Pesquisa</a></li>
+        <li><a href="portfolio" data-i18n="nav.portfolio">Portfólio</a></li>
+        <li><a href="cv" data-i18n="nav.cv">Currículo</a></li>
+      </ul>
+
+      <div class="nav-controls">
+        <div class="lang-selector">
+          <button class="lang-btn active" data-lang="pt">PT</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" data-lang="en">EN</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" data-lang="es">ES</button>
+        </div>
+        <button class="theme-btn" id="themeToggle" title="Alternar tema">&#9789;</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content: Classic Academic 2-Column Bio -->
+  <main class="main-content">
+    <div class="bio-layout">
+      
+      <!-- Left: Portrait & Contact Info -->
+      <aside class="bio-sidebar">
+        <img src="foto_profissional.png" alt="Vinícius Pinon" class="bio-photo">
+        <div class="bio-sidebar-name">Vinícius Pinon</div>
+        <div class="bio-sidebar-title" data-i18n="profile.title">Cientista Político (UFPE) | Mestre em Administração (FGV-EBAPE)</div>
+        <div class="bio-sidebar-affil" data-i18n="profile.affiliation">Pesquisador-assistente na Fundação Joaquim Nabuco (FUNDAJ)</div>
+
+        <div class="bio-links">
+          <div class="bio-link-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <a href="mailto:vinipinon@gmail.com">vinipinon@gmail.com</a>
+          </div>
+          <div class="bio-link-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            <a href="https://www.linkedin.com/in/viniciuspinon/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+          <div class="bio-link-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            <a href="http://lattes.cnpq.br/0609445729661944" target="_blank" rel="noopener noreferrer" data-i18n="profile.lattes">Currículo Lattes</a>
+          </div>
+          <div class="bio-link-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            <a href="https://github.com/viniciuspinon/" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+          <div class="bio-link-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+            <a href="https://viniciuspinon.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>
+          </div>
+          <div class="bio-link-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            <a href="cv" data-i18n="profile.cvDownload">Baixar CV (PDF)</a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Right: Main Biography Content -->
+      <section class="bio-main">
+        <h1 data-i18n="bio.heading">Sobre</h1>
+
+        <p data-i18n-html="bio.p1">
+          Possuo mestrado em Administração pela <strong>Escola Brasileira de Administração Pública e de Empresas da Fundação Getulio Vargas (FGV/EBAPE)</strong>, na linha de Instituições, Política e Governo, e bacharelado em Ciência Política pela <strong>Universidade Federal de Pernambuco (UFPE)</strong>.
+        </p>
+
+        <p data-i18n-html="bio.p2">
+          Atualmente, sou pesquisador-assistente na <strong>Fundação Joaquim Nabuco (FUNDAJ)</strong> no Núcleo de Inovação Social em Políticas Públicas. Anteriormente, atuei como pesquisador na <strong>Escola Nacional de Administração Pública (Enap)</strong> no projeto <em>Evidência Express</em>, fui pesquisador-assistente na <strong>Harvard Business School</strong> (para a Profª. Paula Rettl, PhD) e na <strong>FGV/EBAPE</strong> (para o Prof. Octavio Amorim Neto, PhD), além de ter trabalhado como Analista de Dados na <strong>Prefeitura do Recife</strong> (SEPLAGTD).
+        </p>
+
+        <h2 class="section-heading" data-i18n="bio.interestsTitle">Interesses de Pesquisa</h2>
+        <ul data-i18n-html="bio.interestsList">
+          <li>Políticas Públicas e Avaliação de Impacto</li>
+          <li>Instituições Políticas</li>
+          <li>Comportamento Político e Opinião Pública</li>
+          <li>Ciência de Dados Aplicada e Métodos Quantitativos (R, Stata, Power BI)</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="footerYear">2026</span> Vinícius Pinon &bull; <a href="https://github.com/viniciuspinon/">GitHub</a> &bull; <a href="https://viniciuspinon.substack.com/">Substack</a> &bull; <a href="https://www.linkedin.com/in/viniciuspinon/">LinkedIn</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
